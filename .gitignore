@@ -11,6 +11,32 @@
 .svn/
 .swiftpm/
 migrate_working_dir/
+# Flutter & Dart
+.dart_tool/
+.build/
+.pub/
+*.lock
+*.log
+
+# Android specific
+android/.gradle/
+android/app/debug.keystore
+android/app/src/main/res/values/*.xml  # Ignores all XML files in res/values
+android/app/src/main/AndroidManifest.xml  # Ignores the main AndroidManifest.xml
+
+# iOS & macOS
+ios/Pods/
+macos/Pods/
+
+# Secrets in lib/
+lib/secrets/
+
+# IDE & OS-specific
+.idea/
+.vscode/
+.DS_Store
+*.iml
+
 
 # IntelliJ related
 *.iml
