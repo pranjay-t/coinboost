@@ -40,7 +40,7 @@ lib/secrets/
 
 # IntelliJ related
 *.iml
-*.ipr
+*.iprgit rm --cached android/app/src/main/AndroidManifest.xml
 *.iws
 .idea/
 
